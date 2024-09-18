@@ -4,12 +4,12 @@ on:
   # Runs on push to any of the below branches
   push:
     branches: 
-      
+      - master
       - main
   # Runs on pull request events that target one of the below branches
   pull_request:
     branches: 
-      
+      - master
       - main
 
   # Allows you to run this workflow manually from the Actions tab of the repository
@@ -26,7 +26,7 @@ env:
   BUILD_NUMBER: 1
   BUILD_VERSION: 1.0.0
   PYTHON_VERSION: 3.12.2
-  FLUTTER_VERSION: 3.24.0
+  FLUTTER_VERSION: 3.22.2
   
 jobs:
   build:
